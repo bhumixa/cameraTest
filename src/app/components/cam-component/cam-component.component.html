@@ -1,4 +1,11 @@
-<p>
-  <ion-button (click)="openCam()" >Open Camera</ion-button>
-  <img src="{{image}}">
-</p>
+
+<div>
+  <div class='inline'>
+    <button ion-button (click)="openCam()" class='inline'>
+      <ion-icon name="camera"></ion-icon>
+    </button>
+  </div>
+  <div class='inline'>
+      <img src="{{image}}" class="picture inline"/>
+  </div>
+</div>
